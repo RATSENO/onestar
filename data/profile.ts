@@ -99,6 +99,24 @@ export const projects: Project[] = [
     stack: ["Java", "Spring", "NICE 정기결제", "전문 통신", "Oracle"],
   },
   {
+    title: "WRMS 세스코 렌탈 영업 시스템 구축",
+    client: "웅진 · 세스코",
+    period: "2021.07 — 2021.11",
+    summary:
+      "기업용 렌탈 관리 솔루션(WRMS)을 세스코 렌탈 영업 시스템에 적용하는 구축 프로젝트에서 결제 연계를 맡았습니다.",
+    tasks: [
+      "실시간 즉시이체 및 정기결제 인터페이스 개발",
+      "KSNET 결제 모듈 연계 및 전문 통신 개발",
+      "결제 API 개발 및 테스트",
+      "운영 적용을 위한 인터페이스 검증",
+    ],
+    results: [
+      "실시간 결제 및 자동이체 기능을 성공적으로 구축",
+      "외부 결제 시스템과의 안정적인 인터페이스 구현",
+    ],
+    stack: ["Java", "Spring", "KSNET", "전문 통신", "REST API"],
+  },
+  {
     title: "신한 DS OpenAPI 포털 구축",
     client: "비디 · 신한DS",
     period: "2020.12 — 2021.07",
