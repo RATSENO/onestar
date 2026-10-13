@@ -80,6 +80,25 @@ export const projects: Project[] = [
     stack: ["Kotlin", "Spring Boot", "Spring-jdbc-plus", "REST API"],
   },
   {
+    title: "WRMS 하나캐피탈 팩토링 · 자동이체 연계",
+    client: "웅진 · 세라잼 / 하나캐피탈",
+    period: "2022.02 — 2022.04",
+    summary:
+      "기업용 렌탈 관리 솔루션(WRMS)의 청구·수납 영역과 하나캐피탈 팩토링 시스템을 연계하고, 렌탈료 자동이체 프로세스를 구축했습니다.",
+    tasks: [
+      "청구·수납 영역과 하나캐피탈 팩토링 시스템 간 인터페이스 개발",
+      "NICE 정기결제 모듈 기반 렌탈료 자동이체 기능 개발",
+      "은행이체 전문 통신 분석 및 인터페이스 개발",
+      "정기결제 청구 프로세스 개선 및 예외 처리 기능 개발",
+    ],
+    results: [
+      "렌탈료 청구 및 자동이체 프로세스를 안정적으로 구축",
+      "NICE 전문 통신 구조 분석으로 금융 인터페이스 개발 역량 확보",
+      "단일 이용기관 코드를 상위 그룹 코드로 확장하여 다양한 이용기관 지원",
+    ],
+    stack: ["Java", "Spring", "NICE 정기결제", "전문 통신", "Oracle"],
+  },
+  {
     title: "신한 DS OpenAPI 포털 구축",
     client: "비디 · 신한DS",
     period: "2020.12 — 2021.07",
@@ -96,23 +115,5 @@ export const projects: Project[] = [
       "금융 그룹사 OpenAPI 제공 시스템 구축에 기여",
     ],
     stack: ["Java", "Spring", "MyBatis", "CA API Gateway", "JSP"],
-  },
-  {
-    title: "KOSCOM 마이데이터 중계플랫폼 구축",
-    client: "비디 · KOSCOM",
-    period: "2020.08 — 2020.12",
-    summary:
-      "마이데이터 사업을 위한 자본시장 중계플랫폼 구축 선행과제로, 클라우드 기반 API Gateway 환경을 구성하고 검증했습니다.",
-    tasks: [
-      "NBP Cloud 기반 Kubernetes 환경 구성",
-      "Kong Gateway Enterprise Edition 구축 및 설정",
-      "Gateway 라우팅 및 정책 설정, POC 수행",
-    ],
-    results: [
-      "Kong Gateway 선행 학습과 POC를 주도하여 구축 가능성 검증",
-      "프로젝트 경험을 바탕으로 사내 기술 공유",
-      "API Gateway 및 클라우드 환경 운영 경험 확보",
-    ],
-    stack: ["Kubernetes", "Kong Gateway", "NBP Cloud"],
   },
 ];
