@@ -20,7 +20,7 @@ export const profile = {
 export const skills = [
   { group: "Backend", items: ["Java", "Kotlin", "Spring Framework", "Spring Boot", "MyBatis", "JPA", "RESTful API"] },
   { group: "Database", items: ["Oracle", "MySQL"] },
-  { group: "Infra", items: ["Docker", "Kubernetes", "AWS", "Kong Gateway", "Git"] },
+  { group: "Infra", items: ["Docker", "Kubernetes", "AWS", "Git"] },
   { group: "Frontend", items: ["JavaScript", "jQuery", "React"] },
 ];
 
