@@ -1,6 +1,6 @@
 export const profile = {
   name: "이한별",
-  nameEn: "Hanbyeol Lee",
+  nameEn: "Hanbyul Lee",
   role: "Java Backend Developer",
   years: "9년 7개월",
   email: "onestar1014@gmail.com",
